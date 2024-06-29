@@ -15,5 +15,10 @@ import lombok.ToString;
 public class MensageResponse {
     private String message;
     private Object data;
-
+    public static MensageResponse fromData(String message, Object data) {
+        return MensageResponse.builder()
+                .message(message)
+                .data(data)
+                .build();
+    }
 }
