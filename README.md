@@ -50,14 +50,18 @@ La API expone varios endpoints para gestionar la información de los clubes, rem
 
 ### Clubes:
 
-- `GET /clubes`: Obtener una lista de todos los clubes.
-- `POST /clubes`: Crear un nuevo club.
-- `PUT /clubes/{id}`: Actualizar la información de un club existente.
-- `DELETE /clubes/{id}`: Eliminar un club.
+- `GET /clubs`: Obtener una lista de todos los clubes.
+- `GET /clubs/greater/{yearsInCompetition}`: Obtener una lista de todos los clubes con nas años en competición que el pasado por parametro.
+- `GET /clubs/less/{yearsInCompetition}`: Obtener una lista de todos los clubes con menos años en competición que el pasado por parametro.
+- `GET /clubs/equal/{yearsInCompetition}`: Obtener una lista de todos los clubes con años en competición a los pasados por parametro.
+- `POST /club`: Crear un nuevo club.
+- `PUT /club/{id}`: Actualizar la información de un club existente.
+- `DELETE /club/{id}`: Eliminar un club.
 
 ### Remeros:
 
 - `GET /remeros`: Obtener una lista de todos los remeros.
+- `GET /remeros/{idClub}`: Obtener una lista de todos los remeros pertenecientes al club con la id pasada por parametro.
 - `POST /remeros`: Crear un nuevo remero.
 - `PUT /remeros/{id}`: Actualizar la información de un remero existente.
 - `DELETE /remeros/{id}`: Eliminar un remero.
