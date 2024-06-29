@@ -4,10 +4,11 @@ Este es un proyecto para crear una API REST con Spring Boot. La API está relaci
 
 ## Tecnologías Utilizadas ⚙
 
-- **Spring Boot**: Framework principal para el desarrollo de la API.
-- **MySQL**: Sistema de gestión de bases de datos utilizado.
-- **Spring Data JPA**: Provee la capa de persistencia para interactuar con la base de datos.
-- **Lombok**: Biblioteca que reduce el código boilerplate mediante anotaciones.
+- **Spring Boot**: Framework principal para el desarrollo de la API. <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+- **Java 17**: Lenguaje de programación utilizado. <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
+- **MySQL**: Sistema de gestión de bases de datos utilizado. <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"/>
+- **Spring Data JPA**: Provee la capa de persistencia para interactuar con la base de datos. <img src="https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+- **Lombok**: Biblioteca que reduce el código boilerplate mediante anotaciones. <img src="https://img.shields.io/badge/Lombok-BCD32B?style=for-the-badge&logo=Project%20Lombok&logoColor=white"/>
 
 ## Funcionalidades 🚀
 
